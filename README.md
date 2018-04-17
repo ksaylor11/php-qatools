@@ -5,6 +5,10 @@ Collection of PHP QA tools
 
 [documentation](https://github.com/squizlabs/PHP_CodeSniffer)
 
+Install:
+
+`composer global require "squizlabs/php_codesniffer=*"`
+
 Usage:
 
 For `phpcs`
@@ -16,3 +20,15 @@ Use custom configuration file: [phpcs.xml.dist](php.xml.dist) *thanks to Woody G
 For `phpcbf`
 
 `phpcbf <file or directory>`
+
+## PHPMD
+
+[documentation](https://phpmd.org/)
+
+Install:
+
+`composer global require "phpmd/phpmd=*"`
+
+Usage:
+
+Integrate with Jetbrains [see documentation](https://www.jetbrains.com/help/idea/using-php-mess-detector.html#d826777e13)
