@@ -34,7 +34,7 @@ Usage:
 Integrate with Jetbrains [see documentation](https://www.jetbrains.com/help/idea/using-php-mess-detector.html#d826777e13)
 
 
-##PHPUnit
+## PHPUnit
 
 [documentation](https://phpunit.readthedocs.io/en/7.1/)
 
