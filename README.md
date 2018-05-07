@@ -41,3 +41,15 @@ Integrate with Jetbrains [see documentation](https://www.jetbrains.com/help/idea
 Install:
 
 `composer global require "phpunit/phpunit=*"`
+
+## PHP Coding Standards Fixer
+
+[documentation](https://cs.sensiolabs.org/)
+
+Install
+
+`composer require "friendsofphp/php-cs-fixer"`
+
+Usage:
+
+Use custom configuration file: [.php_cs](.php_cs). This configuration will check against PSR1 and PSR2 coding conventions as well as clean up unused imports. (Similar to the code cleanup options that Jetbrains provides)
